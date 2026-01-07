@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hope Has No Borders</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif']
+          },
+          colors: {
+            orange: {
+              600: '#ea580c',
+              50: '#fff7ed'
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="antialiased selection:bg-orange-100 selection:text-orange-900">
+  <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 ease-out bg-transparent py-6 text-white">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <div onclick="navigateTo('home')" class="cursor-pointer z-50 hover:opacity-80 transition-opacity w-32 md:w-48">
+        <img src="./assets/images/logo.png" alt="Hope Has No Borders" id="nav-logo" class="w-full h-auto logo-white-filter logo-target object-contain" />
+      </div>
+
+      <div class="hidden lg:flex items-center gap-8 font-medium text-xs tracking-widest">
+        <button onclick="navigateTo('about')" class="nav-link uppercase hover:text-orange-600 transition-colors relative group" data-key="nav.about">Who We Are</button>
+        <button onclick="navigateTo('programs')" class="nav-link uppercase hover:text-orange-600 transition-colors relative group" data-key="nav.programs">Programs</button>
+        <button onclick="navigateTo('resources')" class="nav-link uppercase hover:text-orange-600 transition-colors relative group" data-key="nav.resources">Resources</button>
+        <button onclick="navigateTo('volunteer')" class="nav-link uppercase hover:text-orange-600 transition-colors relative group" data-key="nav.volunteer">Volunteer</button>
+
+        <div id="nav-divider" class="h-4 w-px bg-white/30"></div>
+
+        <button onclick="toggleLang()" id="lang-toggle" class="font-bold uppercase hover:text-orange-600 transition-colors">EN</button>
+
+        <button onclick="navigateTo('donate')" class="bg-orange-600 text-white px-6 py-3 rounded-sm font-bold uppercase hover:bg-black transition-colors duration-300 shadow-lg shadow-orange-600/20 hover:shadow-xl" data-key="nav.donate">
+          Donate
+        </button>
+      </div>
+
+      <button class="lg:hidden z-50" onclick="toggleMobileMenu()">
+        <i data-lucide="menu" id="mobile-menu-icon" class="text-white"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="fixed inset-0 bg-white text-black z-40 flex flex-col items-center justify-center gap-8 hidden opacity-0 transition-opacity duration-300">
+    <button onclick="navigateTo('about')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.about">Who We Are</button>
+    <button onclick="navigateTo('programs')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.programs">Programs</button>
+    <button onclick="navigateTo('resources')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.resources">Resources</button>
+    <button onclick="navigateTo('volunteer')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.volunteer">Volunteer</button>
+    <button onclick="navigateTo('host')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.host">Host</button>
+    <button onclick="navigateTo('donate')" class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors" data-key="nav.donate">Donate</button>
+    <button onclick="toggleLang()" class="mt-8 text-xs font-bold uppercase tracking-widest border-b border-black pb-1">Switch Language</button>
+  </div>
+
+  <main id="app-root" class="flex-grow min-h-screen"></main>
+
+  <footer class="bg-black text-white py-24 border-t border-neutral-900">
+    <div class="container mx-auto px-6 grid md:grid-cols-4 gap-12">
+      <div class="md:col-span-2">
+        <div class="mb-8 w-40">
+          <img src="./assets/images/logo.png" alt="Hope Has No Borders" class="w-full h-auto logo-white-filter" />
+        </div>
+        <p class="text-neutral-500 max-w-md font-light mb-8">
+          A 501(c)(3) non-profit organization dedicated to providing humanitarian aid, housing, and legal support to asylum seekers in Denver.
+        </p>
+        <div class="flex gap-4 text-neutral-400">
+          <a href="#" class="hover:text-white transition-colors">Instagram</a>
+          <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
+          <a href="#" class="hover:text-white transition-colors">Facebook</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="font-serif text-xl mb-6">Navigation</h4>
+        <ul class="space-y-4 text-neutral-400 font-light text-sm">
+          <li><button onclick="navigateTo('about')" class="hover:text-white transition-colors">Who We Are</button></li>
+          <li><button onclick="navigateTo('programs')" class="hover:text-white transition-colors">Our Programs</button></li>
+          <li><button onclick="navigateTo('resources')" class="hover:text-white transition-colors">Migrant Resources</button></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-serif text-xl mb-6">Legal & Contact</h4>
+        <ul class="space-y-4 text-neutral-400 font-light text-sm">
+          <li>hopehasnoborders@gmail.com</li>
+          <li>Denver, Colorado</li>
+          <li class="pt-4"><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/content.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
