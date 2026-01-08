@@ -1,0 +1,29 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Host a Family - Hope Has No Borders",
+        "description": "Open your home to provide stability, dignity, and a bridge to independence.",
+        "hero_label": "Transitional Housing",
+        "hero_title": "Host a Family",
+        "hero_text": "Open your home to provide stability, dignity, and a bridge to independence.",
+        "prose_p1": "The HOPE Host Home program connects compassionate community members who have extra space with individuals or families in need of transitional housing for up to 90 days.",
+        "prose_p2": "Providing hosts with a stipend for financial support & dedicated case management for guests, the program ensures a safe and supportive environment for asylum seekers as they navigate life in America.",
+        "cta_title": "Ready to Offer Space?",
+        "cta_text": "Fill out our host application form to get started. Our team will contact you to discuss the process and requirements.",
+        "cta_button": "Apply to Host",
+        "cta_link": "https://forms.gle/2NnFicQdecde4fkQA"
+    },
+    "es": {
+        "title": "Hospedar a una Familia - Hope Has No Borders",
+        "description": "Abra su hogar para brindar estabilidad, dignidad y un puente hacia la independencia.",
+        "hero_label": "Vivienda de Transición",
+        "hero_title": "Hospedar a una Familia",
+        "hero_text": "Abra su hogar para brindar estabilidad, dignidad y un puente hacia la independencia.",
+        "prose_p1": "El programa HOPE Host Home conecta a miembros compasivos de la comunidad que tienen espacio extra con individuos o familias que necesitan vivienda de transición por hasta 90 días.",
+        "prose_p2": "Al proporcionar a los anfitriones un estipendio para apoyo financiero y gestión de casos dedicada para los huéspedes, el programa garantiza un entorno seguro y de apoyo para los solicitantes de asilo mientras navegan por la vida en Estados Unidos.",
+        "cta_title": "¿Listo para Ofrecer Espacio?",
+        "cta_text": "Complete nuestro formulario de solicitud de anfitrión para comenzar. Nuestro equipo se comunicará con usted para analizar el proceso y los requisitos.",
+        "cta_button": "Postularse para Hospedar",
+        "cta_link": "https://forms.gle/2NnFicQdecde4fkQA"
+    }
+}

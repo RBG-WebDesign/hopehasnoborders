@@ -1,0 +1,23 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Donate - Hope Has No Borders",
+        "description": "Your contribution directly supports housing, legal aid, and emergency relief for families in crisis.",
+        "hero_label": "Fuel the Mission",
+        "hero_title": "Donate",
+        "hero_text": "Your contribution directly supports housing, legal aid, and emergency relief for families in crisis.",
+        "body_text": "We rely on the generosity of our community to continue our work. Every dollar goes towards stabilizing lives and building a stronger, more inclusive Denver.",
+        "cta_text": "Donate via PayPal",
+        "cta_link": "https://www.paypal.com/donate/?hosted_button_id=JG5GT99FFDQ4L"
+    },
+    "es": {
+        "title": "Donar - Hope Has No Borders",
+        "description": "Su contribución apoya directamente la vivienda, la asistencia legal y la ayuda de emergencia para familias en crisis.",
+        "hero_label": "Alimente la Misión",
+        "hero_title": "Donar",
+        "hero_text": "Su contribución apoya directamente la vivienda, la asistencia legal y la ayuda de emergencia para familias en crisis.",
+        "body_text": "Dependemos de la generosidad de nuestra comunidad para continuar nuestro trabajo. Cada dólar se destina a estabilizar vidas y construir un Denver más fuerte e inclusivo.",
+        "cta_text": "Donar vía PayPal",
+        "cta_link": "https://www.paypal.com/donate/?hosted_button_id=JG5GT99FFDQ4L"
+    }
+}

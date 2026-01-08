@@ -1,0 +1,36 @@
+{
+    "en": {
+        "nav_home": "Home",
+        "nav_about": "Who We Are",
+        "nav_impact": "Impact",
+        "nav_programs": "Programs",
+        "nav_volunteer": "Volunteer",
+        "nav_resources": "Resources",
+        "nav_donate": "Donate",
+        "nav_contact": "Contact",
+        "nav_blog": "Blog",
+        "footer_copyright": "© 2024 Hope Has No Borders",
+        "footer_privacy": "Privacy Policy",
+        "footer_terms": "Terms of Use",
+        "lang_name": "English",
+        "lang_switch_label": "Español",
+        "lang_switch_url": "/es/"
+    },
+    "es": {
+        "nav_home": "Inicio",
+        "nav_about": "Quiénes Somos",
+        "nav_impact": "Impacto",
+        "nav_programs": "Programas",
+        "nav_volunteer": "Voluntariado",
+        "nav_resources": "Recursos",
+        "nav_donate": "Donar",
+        "nav_contact": "Contacto",
+        "nav_blog": "Blog",
+        "footer_copyright": "© 2024 Hope Has No Borders",
+        "footer_privacy": "Política de Privacidad",
+        "footer_terms": "Términos de Uso",
+        "lang_name": "Español",
+        "lang_switch_label": "English",
+        "lang_switch_url": "/en/"
+    }
+}

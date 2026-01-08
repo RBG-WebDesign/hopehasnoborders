@@ -1,0 +1,15 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Terms & Conditions - Hope Has No Borders",
+        "description": "Our terms and conditions.",
+        "hero_title": "Terms & Conditions",
+        "content": "<p>Content coming soon.</p>"
+    },
+    "es": {
+        "title": "Términos y Condiciones - Hope Has No Borders",
+        "description": "Nuestros términos y condiciones.",
+        "hero_title": "Términos y Condiciones",
+        "content": "<p>Contenido próximamente.</p>"
+    }
+}

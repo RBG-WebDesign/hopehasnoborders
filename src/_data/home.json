@@ -1,0 +1,114 @@
+{
+    "en": {
+        "title": "Hope Has No Borders",
+        "description": "A grassroots response to the humanitarian crisis in Denver, bridging the gap from crisis to stability.",
+        "hero_subtitle": "Est. 2023 • Denver, CO",
+        "hero_main_text": "HOPE<br/>HAS NO<br/>BORDERS",
+        "hero_body_text": "A grassroots response to the humanitarian crisis in Denver, bridging the gap from crisis to stability through housing, legal aid, and dignity.",
+        "video_title": "See Our Impact",
+        "video_quote": "\"We are moms, neighbors, and community members bridging the gap from crisis to stability.\"",
+        "video_url": "https://www.youtube.com/embed/mh9w6QWdtf8?title=Hope Has No Borders Mission Video",
+        "services_title": "What We Do",
+        "services_heading": "Comprehensive Support for Newcomers",
+        "services": [
+            {
+                "icon": "home",
+                "title": "Housing Support",
+                "description": "Transitional housing via our Host Home program, providing 90 days of stability.",
+                "link": "/en/programs/"
+            },
+            {
+                "icon": "scale",
+                "title": "Legal Navigation",
+                "description": "Pro se asylum clinics, work permit applications, and legal document support.",
+                "link": "/en/programs/"
+            },
+            {
+                "icon": "users",
+                "title": "Community Integration",
+                "description": "Connecting newcomers to local service projects to build resume skills and community.",
+                "link": "/en/programs/"
+            }
+        ],
+        "mission_quote": "\"To provide humanitarian aid and support to immigrants and asylum seekers, fostering a community where everyone has the opportunity to thrive.\"",
+        "btn_resources": "Find Resources",
+        "btn_impact": "Our Impact",
+        "btn_donate": "Donate Now",
+        "cta_title": "How can we help you today?",
+        "btn_need_help": "I Need Help",
+        "btn_volunteer": "I Want to Volunteer",
+        "btn_donate_cta": "I Want to Donate",
+        "needs_title": "Top Needs This Week",
+        "needs_heading": "Help Us Meet Urgent Needs",
+        "needs_list": [
+            "Winter Coats (All Sizes)",
+            "RTD Bus Passes",
+            "Grocery Gift Cards ($25+)"
+        ],
+        "email_cta": "Email to coordinate drop-off",
+        "impact_title": "Impact Snapshot",
+        "stat_families": "300+",
+        "stat_families_label": "Families Housed",
+        "stat_legal": "1,500+",
+        "stat_legal_label": "Legal Forms Filed",
+        "stat_meals": "5,000+",
+        "stat_meals_label": "Meals Provided",
+        "stat_disclaimer": "* Approximate metrics reflecting 2024 goals and impact."
+    },
+    "es": {
+        "title": "Hope Has No Borders",
+        "description": "Una respuesta de base a la crisis humanitaria en Denver, cerrando la brecha de la crisis a la estabilidad.",
+        "hero_subtitle": "Est. 2023 • Denver, CO",
+        "hero_main_text": "LA ESPERANZA<br/>NO TIENE<br/>FRONTERAS",
+        "hero_body_text": "Una respuesta de base a la crisis humanitaria en Denver, cerrando la brecha de la crisis a la estabilidad a través de la vivienda, la asistencia legal y la dignidad.",
+        "video_title": "Vea Nuestro Impacto",
+        "video_quote": "\"Somos madres, vecinos y miembros de la comunidad cerrando la brecha de la crisis a la estabilidad.\"",
+        "video_url": "https://www.youtube.com/embed/mh9w6QWdtf8?title=Video de la Misión Hope Has No Borders",
+        "services_title": "Lo Que Hacemos",
+        "services_heading": "Apoyo Integral para Recién Llegados",
+        "services": [
+            {
+                "icon": "home",
+                "title": "Apoyo de Vivienda",
+                "description": "Vivienda de transición a través de nuestro programa Host Home, brindando 90 días de estabilidad.",
+                "link": "/es/programs/"
+            },
+            {
+                "icon": "scale",
+                "title": "Navegación Legal",
+                "description": "Clínicas de asilo pro se, solicitudes de permisos de trabajo y apoyo con documentos legales.",
+                "link": "/es/programs/"
+            },
+            {
+                "icon": "users",
+                "title": "Integración Comunitaria",
+                "description": "Conectando a los recién llegados con proyectos de servicio local para desarrollar habilidades y comunidad.",
+                "link": "/es/programs/"
+            }
+        ],
+        "mission_quote": "\"Proporcionar ayuda humanitaria y apoyo a inmigrantes y solicitantes de asilo, fomentando una comunidad donde todos tengan la oportunidad de prosperar.\"",
+        "btn_resources": "Buscar Recursos",
+        "btn_impact": "Nuestro Impacto",
+        "btn_donate": "Donar Ahora",
+        "cta_title": "¿Cómo podemos ayudarle hoy?",
+        "btn_need_help": "Necesito Ayuda",
+        "btn_volunteer": "Quiero ser Voluntario",
+        "btn_donate_cta": "Quiero Donar",
+        "needs_title": "Necesidades Principales",
+        "needs_heading": "Ayude con Necesidades Urgentes",
+        "needs_list": [
+            "Abrigos de Invierno (Todas las Tallas)",
+            "Pases de Autobús RTD",
+            "Tarjetas de Regalo para Supermercado ($25+)"
+        ],
+        "email_cta": "Envíe un correo para coordinar la entrega",
+        "impact_title": "Instantánea del Impacto",
+        "stat_families": "300+",
+        "stat_families_label": "Familias Alojadas",
+        "stat_legal": "1,500+",
+        "stat_legal_label": "Formularios Legales",
+        "stat_meals": "5,000+",
+        "stat_meals_label": "Comidas Provistas",
+        "stat_disclaimer": "* Métricas aproximadas que reflejan los objetivos e impacto de 2024."
+    }
+}

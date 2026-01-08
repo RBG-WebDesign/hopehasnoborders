@@ -1,0 +1,19 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Contact - Hope Has No Borders",
+        "description": "We'd love to hear from you.",
+        "hero_title": "Contact Us",
+        "hero_text": "We'd love to hear from you.",
+        "email": "hopehasnoborders@gmail.com",
+        "location": "Denver, Colorado"
+    },
+    "es": {
+        "title": "Contacto - Hope Has No Borders",
+        "description": "Nos encantaría saber de usted.",
+        "hero_title": "Contáctenos",
+        "hero_text": "Nos encantaría saber de usted.",
+        "email": "hopehasnoborders@gmail.com",
+        "location": "Denver, Colorado"
+    }
+}

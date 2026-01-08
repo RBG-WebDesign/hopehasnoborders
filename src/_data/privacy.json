@@ -1,0 +1,15 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Privacy Policy - Hope Has No Borders",
+        "description": "Our privacy policy.",
+        "hero_title": "Privacy Policy",
+        "content": "<p>Content coming soon.</p>"
+    },
+    "es": {
+        "title": "Política de Privacidad - Hope Has No Borders",
+        "description": "Nuestra política de privacidad.",
+        "hero_title": "Política de Privacidad",
+        "content": "<p>Contenido próximamente.</p>"
+    }
+}

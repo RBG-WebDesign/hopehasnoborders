@@ -1,0 +1,4 @@
+{
+    "permalink": "/pages/{{ page.fileSlug }}.html",
+    "layout": "layouts/base.njk"
+}

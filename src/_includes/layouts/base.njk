@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title | default("Hope Has No Borders") }}</title>
+  <meta name="description" content="{{ description | default("A grassroots response to the humanitarian crisis in Denver.") }}" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+             sans: ['Inter', 'sans-serif'],
+             serif: ['Playfair Display', 'serif']
+          },
+          colors: {
+             orange: { 600: '#ea580c', 50: '#fff7ed' }
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body class="antialiased selection:bg-orange-100 selection:text-orange-900 {{ bodyClass }}">
+  
+  {% include "partials/nav.njk" %}
+
+  <main class="flex-grow min-h-screen">
+    {{ content | safe }}
+  </main>
+
+  {% include "partials/footer.njk" %}
+
+  <script src="/assets/js/main.js"></script>
+  
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+  </script>
+</body>
+</html>

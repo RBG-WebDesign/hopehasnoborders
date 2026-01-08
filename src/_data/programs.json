@@ -1,0 +1,79 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Programs - Hope Has No Borders",
+        "description": "Our programs include Crisis to HOPE Fund, legal navigation, community service partnerships, and transitional housing.",
+        "hero_label": "Our Impact",
+        "hero_title": "Our Programs",
+        "hero_text": "Responsive support services designed to bridge the gap between crisis and stability.",
+        "prog1_title": "Crisis to HOPE Fund",
+        "prog1_desc": "Immediate financial assistance for critical needs—work, shelter, medical care, and transportation. Includes up to 6 hours of dedicated case management.",
+        "prog1_cta": "Apply for Assistance",
+        "prog1_link": "https://forms.gle/XfwWMMsSF6j3F8wr5",
+        "prog1_quote": "\"Infusing HOPE in times of crisis through flexible, immediate response.\"",
+        "prog2_links": [
+            {
+                "text": "Work Permit Help (EAD)",
+                "url": "https://forms.gle/e9WAUpuS9num9uoF8"
+            },
+            {
+                "text": "Court Letters & Fees",
+                "url": "https://forms.gle/kmb5kHgfFxyyLprz6"
+            },
+            {
+                "text": "Pro Se Asylum Support",
+                "url": "https://forms.gle/3Y4gFuCpWBEsteAu6"
+            }
+        ],
+        "prog2_title": "Pathways to HOPE (Legal)",
+        "prog2_desc": "Virtual and in-person pro se asylum support, translation services, and court fee assistance. We ensure no one is denied the right to file for asylum due to poverty.",
+        "prog3_title": "HOPE Community Services",
+        "prog3_desc": "Empowering immigrants through community service. Participants gain real-life experience, cultural integration, and workforce readiness skills.",
+        "prog3_cta": "Join a Service Team",
+        "prog3_link": "https://forms.gle/TVKdRoyfpawaPr298",
+        "prog3_sub_title": "Workshops",
+        "prog3_sub_desc": "CPR, First Aid, and Professional Housecleaning certifications.",
+        "prog3_tags": [
+            "Workforce Readiness",
+            "Community Integration"
+        ]
+    },
+    "es": {
+        "title": "Programas - Hope Has No Borders",
+        "description": "Nuestros programas incluyen el Fondo Crisis to HOPE, navegación legal, asociaciones de servicio comunitario y vivienda de transición.",
+        "hero_label": "Nuestro Impacto",
+        "hero_title": "Nuestros Programas",
+        "hero_text": "Servicios de apoyo receptivos diseñados para cerrar la brecha entre la crisis y la estabilidad.",
+        "prog1_title": "Fondo Crisis to HOPE",
+        "prog1_desc": "Asistencia financiera inmediata para necesidades críticas: trabajo, refugio, atención médica y transporte. Incluye hasta 6 horas de gestión de casos dedicada.",
+        "prog1_cta": "Solicitar Asistencia",
+        "prog1_link": "https://forms.gle/XfwWMMsSF6j3F8wr5",
+        "prog1_quote": "\"Infundir ESPERANZA en tiempos de crisis a través de una respuesta flexible e inmediata.\"",
+        "prog2_links": [
+            {
+                "text": "Ayuda con Permiso de Trabajo (EAD)",
+                "url": "https://forms.gle/e9WAUpuS9num9uoF8"
+            },
+            {
+                "text": "Cartas y Tarifas Judiciales",
+                "url": "https://forms.gle/kmb5kHgfFxyyLprz6"
+            },
+            {
+                "text": "Apoyo de Asilo Pro Se",
+                "url": "https://forms.gle/3Y4gFuCpWBEsteAu6"
+            }
+        ],
+        "prog2_title": "Pathways to HOPE (Legal)",
+        "prog2_desc": "Apoyo de asilo pro se virtual y presencial, servicios de traducción y asistencia con tarifas judiciales. Aseguramos que a nadie se le niegue el derecho a solicitar asilo debido a la pobreza.",
+        "prog3_title": "Servicios Comunitarios HOPE",
+        "prog3_desc": "Empoderar a los inmigrantes a través del servicio comunitario. Los participantes obtienen experiencia de la vida real, integración cultural y habilidades de preparación laboral.",
+        "prog3_cta": "Únete a un Equipo de Servicio",
+        "prog3_link": "https://forms.gle/TVKdRoyfpawaPr298",
+        "prog3_sub_title": "Talleres",
+        "prog3_sub_desc": "Certificaciones de RCP, Primeros Auxilios y Limpieza Profesional.",
+        "prog3_tags": [
+            "Preparación Laboral",
+            "Integración Comunitaria"
+        ]
+    }
+}

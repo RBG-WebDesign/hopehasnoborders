@@ -1,0 +1,54 @@
+<nav id="navbar"
+    class="fixed w-full z-50 transition-all duration-500 ease-out bg-white/95 backdrop-blur-md text-black shadow-sm py-4">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+        <!-- Path handling: we will set hrefs relative to root using JS or absolute paths if hosting allows. For simplicity in local dev without build step, we use /pages/.. but we need to handle root vs subfolder. -->
+        <!-- Ideally, we use absolute paths from root for a web server. -->
+        <a href="/index.html" class="cursor-pointer z-50 hover:opacity-80 transition-opacity w-32 md:w-48">
+            <img src="/assets/img/HOPE_Logo_A_Black_3x.avif" alt="Hope Has No Borders" id="nav-logo"
+                class="w-full h-auto logo-normal logo-target object-contain" />
+        </a>
+
+        <div class="hidden lg:flex items-center gap-8 font-medium text-xs tracking-widest">
+            <a href="/pages/about.html"
+                class="nav-link uppercase hover:text-orange-600 transition-colors relative group">Who We Are</a>
+            <a href="/pages/programs.html"
+                class="nav-link uppercase hover:text-orange-600 transition-colors relative group">Programs</a>
+            <a href="/pages/resources.html"
+                class="nav-link uppercase hover:text-orange-600 transition-colors relative group">Resources</a>
+            <a href="/pages/volunteer.html"
+                class="nav-link uppercase hover:text-orange-600 transition-colors relative group">Volunteer</a>
+            <!-- New Get Involved Page -->
+            <a href="/pages/get-involved.html"
+                class="nav-link uppercase hover:text-orange-600 transition-colors relative group">Get Involved</a>
+
+            <div id="nav-divider" class="h-4 w-px bg-neutral-300"></div>
+
+            <a href="https://www.paypal.com/donate/?hosted_button_id=JG5GT99FFDQ4L" target="_blank"
+                class="bg-orange-600 text-white px-6 py-3 rounded-sm font-bold uppercase hover:bg-black transition-colors duration-300 shadow-lg shadow-orange-600/20 hover:shadow-xl">
+                Donate
+            </a>
+        </div>
+
+        <button class="lg:hidden z-50" onclick="toggleMobileMenu()">
+            <i data-lucide="menu" id="mobile-menu-icon" class="text-black"></i>
+        </button>
+    </div>
+</nav>
+
+<div id="mobile-menu"
+    class="fixed inset-0 bg-white text-black z-40 flex flex-col items-center justify-center gap-8 hidden opacity-0 transition-opacity duration-300">
+    <a href="/pages/about.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Who We Are</a>
+    <a href="/pages/programs.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Programs</a>
+    <a href="/pages/resources.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Resources</a>
+    <a href="/pages/volunteer.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Volunteer</a>
+    <a href="/pages/get-involved.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Get Involved</a>
+    <a href="/pages/host.html"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors">Host</a>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=JG5GT99FFDQ4L" target="_blank"
+        class="text-3xl font-serif font-light capitalize hover:text-orange-600 transition-colors text-orange-600 font-bold">Donate</a>
+</div>

@@ -1,0 +1,19 @@
+{
+    "layout": "layouts/base.njk",
+    "en": {
+        "title": "Blog",
+        "description": "Latest news and stories from Hope Has No Borders.",
+        "hero_label": "Our Stories",
+        "hero_title": "Latest News & Updates",
+        "read_more": "Read Story",
+        "back_to_blog": "Back to Blog"
+    },
+    "es": {
+        "title": "Blog",
+        "description": "Últimas noticias e historias de Hope Has No Borders.",
+        "hero_label": "Nuestras Historias",
+        "hero_title": "Últimas Noticias y Actualizaciones",
+        "read_more": "Leer Historia",
+        "back_to_blog": "Volver al Blog"
+    }
+}

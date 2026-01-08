@@ -1,0 +1,137 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: lang
+permalink: "/{{ lang }}/about/"
+layout: layouts/base.njk
+---
+
+<canvas id="hope-network" class="fixed top-0 left-0 w-full h-full pointer-events-none z-0 opacity-50"></canvas>
+
+<div class="pt-32 pb-16 relative z-10">
+    <div class="container mx-auto px-6 max-w-4xl text-center mb-16">
+        <span class="inline-block py-1 px-3 rounded-full bg-orange-100 text-orange-600 text-sm font-semibold mb-6 animate-in">{{ about[lang].est }}</span>
+        <h1 class="text-5xl md:text-7xl font-serif mb-8 animate-in" style="animation-delay: 100ms;">{{ about[lang].hero_title }}</h1>
+        <p class="text-xl text-neutral-600 font-light leading-relaxed mb-10 animate-in" style="animation-delay: 200ms;">
+            {{ about[lang].hero_text }}
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 animate-in" style="animation-delay: 300ms;">
+            <a href="mailto:hopehasnoborders@gmail.com"
+                class="bg-black text-white px-8 py-3 rounded-sm text-sm font-bold uppercase tracking-widest hover:bg-orange-600 transition-colors">
+                {{ about[lang].cta_button }}
+            </a>
+        </div>
+    </div>
+
+    <!-- Our Story Section -->
+    <div class="container mx-auto px-6 max-w-5xl mb-24">
+        <div class="bg-white/80 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-sm border border-orange-100/50">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-serif mb-6">{{ about[lang].story_title }}</h2>
+                    <p class="text-neutral-600 leading-relaxed mb-6">
+                        {{ about[lang].story_p1 }}
+                    </p>
+                    <p class="text-neutral-600 leading-relaxed">
+                        {{ about[lang].story_p2 }}
+                    </p>
+                </div>
+                <div class="bg-orange-50 p-8 rounded-xl text-center">
+                    <div class="text-6xl font-serif text-orange-600 mb-2">{{ about[lang].stat_volunteers }}</div>
+                    <div class="text-neutral-900 font-bold uppercase tracking-wide mb-8">{{ about[lang].stat_volunteers_label }}</div>
+                    
+                    <div class="grid grid-cols-2 gap-6 text-left">
+                        <div>
+                            <div class="text-3xl font-serif text-orange-600">{{ about[lang].stat_days }}</div>
+                            <div class="text-sm text-neutral-600">{{ about[lang].stat_days_label }}</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-serif text-orange-600">{{ about[lang].stat_support }}</div>
+                            <div class="text-sm text-neutral-600">{{ about[lang].stat_support_label }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Section -->
+    <div class="bg-neutral-900 text-white py-24 mb-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-orange-900/20"></div>
+        <div class="container mx-auto px-6 text-center max-w-3xl relative z-10">
+            <h2 class="text-3xl font-serif mb-8 text-orange-100">{{ about[lang].mission_title }}</h2>
+            <p class="text-2xl font-light leading-relaxed">
+                {{ about[lang].mission_text }}
+            </p>
+        </div>
+    </div>
+
+    <!-- Programs Grid -->
+    <div class="container mx-auto px-6 max-w-6xl mb-24">
+        <h2 class="text-3xl font-serif text-center mb-16">{{ about[lang].programs_title }}</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Program 1 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-neutral-100 hover:shadow-md transition-shadow group">
+                <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                    <i data-lucide="heart-handshake"></i>
+                </div>
+                <h3 class="font-serif text-xl mb-3">{{ about[lang].prog1_title }}</h3>
+                <p class="text-sm text-neutral-600 leading-relaxed">
+                    {{ about[lang].prog1_desc }}
+                </p>
+            </div>
+
+            <!-- Program 2 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-neutral-100 hover:shadow-md transition-shadow group">
+                <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                    <i data-lucide="scale"></i>
+                </div>
+                <h3 class="font-serif text-xl mb-3">{{ about[lang].prog2_title }}</h3>
+                <p class="text-sm text-neutral-600 leading-relaxed">
+                    {{ about[lang].prog2_desc }}
+                </p>
+            </div>
+
+            <!-- Program 3 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-neutral-100 hover:shadow-md transition-shadow group">
+                <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                    <i data-lucide="home"></i>
+                </div>
+                <h3 class="font-serif text-xl mb-3">{{ about[lang].prog3_title }}</h3>
+                <p class="text-sm text-neutral-600 leading-relaxed">
+                    {{ about[lang].prog3_desc }}
+                </p>
+            </div>
+
+            <!-- Program 4 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-neutral-100 hover:shadow-md transition-shadow group">
+                <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                    <i data-lucide="users"></i>
+                </div>
+                <h3 class="font-serif text-xl mb-3">{{ about[lang].prog4_title }}</h3>
+                <p class="text-sm text-neutral-600 leading-relaxed">
+                    {{ about[lang].prog4_desc }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partners -->
+    <div class="text-center pb-12">
+        <p class="text-neutral-500 text-sm font-medium uppercase tracking-widest mb-8">{{ about[lang].partners_title }}</p>
+        <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+            <!-- Simple text representations for now/placeholders -->
+            <span class="text-xl font-serif">WeeCycle</span>
+            <span class="text-xl font-serif">The Jeffco Action Center</span>
+            <span class="text-xl font-serif">I Support the Girls</span>
+            <span class="text-xl font-serif">Mile High United Way</span>
+        </div>
+    </div>
+</div>
+
+<!-- Effect Script -->
+<script src="/assets/js/hope-network.js"></script>
+<script>
+    lucide.createIcons();
+</script>
