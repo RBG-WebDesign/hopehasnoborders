@@ -34,18 +34,20 @@
 </head>
 <body class="antialiased selection:bg-yarrow/30 selection:text-black {{ bodyClass }}">
   
-  {% if settings.show_announcement %}
-  <div class="bg-yarrow text-black py-2 px-4 text-center text-xs font-bold uppercase tracking-widest relative z-50">
-    <div class="container mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
-      <span>{{ i18n[lang].announcement_text }}</span>
-      {% if i18n[lang].announcement_link_url %}
-      <a href="{{ i18n[lang].announcement_link_url }}" class="underline hover:no-underline transition-all">{{ i18n[lang].announcement_link_text }} →</a>
-      {% endif %}
+  <header class="fixed w-full z-50 top-0 left-0 transition-transform duration-300" id="site-header">
+    {% if settings.show_announcement %}
+    <div class="bg-yarrow text-black py-2 px-4 text-center text-xs font-bold uppercase tracking-widest relative z-50">
+      <div class="container mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+        <span>{{ i18n[lang].announcement_text }}</span>
+        {% if i18n[lang].announcement_link_url %}
+        <a href="{{ i18n[lang].announcement_link_url }}" class="underline hover:no-underline transition-all">{{ i18n[lang].announcement_link_text }} →</a>
+        {% endif %}
+      </div>
     </div>
-  </div>
-  {% endif %}
+    {% endif %}
 
-  {% include "partials/nav.njk" %}
+    {% include "partials/nav.njk" %}
+  </header>
 
   <main class="flex-grow min-h-screen">
     {{ content | safe }}
